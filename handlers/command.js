@@ -4,7 +4,7 @@ const {
 const ascii = require("ascii-table");
 let table = new ascii("Commands");
 table.setHeading("Command", "Load status");
-console.log("Welcome to SERVICE HANDLER /--/ By BROKARONAGAMING#9999 /--/ Discord: BROKARONAGAMING#9999".yellow);
+console.log("Welcome to SERVICE HANDLER /--/ By BROKARONAGAMING#9999 /--/ Discord: BROKARONAGAMING#9999".blue);
 module.exports = (client) => {
   try {
     readdirSync("./commands/").forEach((dir) => {
